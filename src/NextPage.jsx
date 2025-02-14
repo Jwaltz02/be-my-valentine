@@ -33,7 +33,7 @@ function NextPage() {
       useEffect(() => {
         const interval = setInterval(() => {
           setIndex((prevIndex) => (prevIndex + 1) % texts.length);
-        }, 12000); // Each text stays for 4 seconds before fading out
+        }, 20000); // Each text stays for 4 seconds before fading out
     
         return () => clearInterval(interval);
       }, []);

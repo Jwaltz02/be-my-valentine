@@ -48,7 +48,7 @@ function ImagesPage() {
       ];
   return (
     <div>
-        <div className="overflow-hidden inset-0 bg-pink-100 h-[100vw]">
+        <div className="overflow-hidden absolute inset-0 bg-pink-100 h-[100vw]">
         <div className="flex flex-wrap justify-center items-center gap-4 p-4 z-16 absolute">
             {images.map((src, index) => (
                 <motion.img
