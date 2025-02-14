@@ -53,7 +53,7 @@ function NextPage() {
             className="items-center text-center text-[2.5vw] font-semibold text-gray-800 z-14 p-[5vw]"
             >
             <div>
-                {index === 4 ? '3) ' : `${index + 1}) `}
+                {index === 7 ? '1) ' : `${index + 1}) `}
                 {texts[index]}
             </div>
         </motion.div>
