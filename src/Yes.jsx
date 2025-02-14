@@ -20,7 +20,7 @@ function Yes() {
 
   return (
     <div>
-    <div className='z-16 absolute text-[2vw] font-bold text-[blue] cursor-pointer hover:text-[orange] p-[2vw]'><Link to='/be-my-valentine/'>Return to Home</Link></div>
+    <div className='z-16 absolute text-[2vw] font-bold text-[blue] cursor-pointer hover:text-[orange] p-[2vw]'><Link to='/'>Return to Home</Link></div>
     <div className="flex justify-center">
     <div className="z-16 absolute mt-[5vw] text-[#ba2626] text-[4vw] font-bold">COME... WE'RE GOING ON A DATE!</div>
     <div style={{ backgroundImage: `url(${Jermaine3})` }} className="w-[30vw] h-[38vw] bg-cover z-16 absolute mt-[13vw]"></div>

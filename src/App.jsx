@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./HomePage.jsx";
 import NextPage from "./NextPage.jsx";
 import ImagesPage from "./ImagesPage.jsx";
@@ -6,18 +6,17 @@ import ValentineQuestion from "./ValentineQuestion.jsx";
 import Yes from "./Yes.jsx";
 
 function App() {
-
   return (
-    <Router>
+    <BrowserRouter basename="/be-my-valentine">
       <Routes>
-        <Route path="/be-my-valentine/" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} /> 
         <Route path="/NextPage" element={<NextPage />} />
         <Route path="/ImagesPage" element={<ImagesPage />} />
         <Route path="/ValentineQuestion" element={<ValentineQuestion />} />
         <Route path="/Yes" element={<Yes />} />
       </Routes>
-    </Router>
-    );
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
