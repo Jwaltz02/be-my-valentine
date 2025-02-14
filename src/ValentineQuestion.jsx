@@ -21,7 +21,7 @@ function ValentineQuestion() {
 
   return (
     <div>
-    <div className='z-16 absolute text-[2vw] font-bold text-[blue] cursor-pointer hover:text-[orange] p-[2vw]'><Link to='/'>Return to Home</Link></div>
+    <div className='z-16 absolute text-[2vw] font-bold text-[blue] cursor-pointer hover:text-[orange] p-[2vw]'><Link to='/be-my-valentine/'>Return to Home</Link></div>
     <div className="flex justify-center">
     <div className="absolute z-16 w-[50vw] h-[10vw] text-[#ba2626] text-[5vw] mt-[3vw] font-bold text-center transition-transform duration-80 scale-125 animate-pulse">WILL YOU BE MY VALENTINE?</div>
     <div className="flex flex-wrap justify-center items-center mt-[11vw] gap-x-[5vw] text-[5vw]">

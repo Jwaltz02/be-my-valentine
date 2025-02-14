@@ -40,7 +40,7 @@ function NextPage() {
 
   return (
         <div>
-        <div className='z-14 absolute text-[2vw] font-bold text-[blue] cursor-pointer hover:text-[orange] p-[2vw]'><Link to='/'>Return to Home</Link></div>
+        <div className='z-14 absolute text-[2vw] font-bold text-[blue] cursor-pointer hover:text-[orange] p-[2vw]'><Link to='/be-my-valentine/'>Return to Home</Link></div>
         <div>
         <div className='h-screen flex justify-center items-center'>
         <div className='rounded-full bg-[blue] w-[8vw] h-[3vw] z-18 fixed mt-[30vw] text-white text-center content-center hover:opacity-50 cursor-pointer'><Link to='/ImagesPage'>Next</Link></div>
